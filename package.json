@@ -2,6 +2,7 @@
   "name": "fusion-starter",
   "private": true,
   "type": "module",
+  "engines": { "node": ">=20 <21" },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
