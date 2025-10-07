@@ -19,6 +19,8 @@ export function Header({ className }: HeaderProps) {
     navigate("/onboarding");
   };
 
+  console.log("Header rendered");
+
   return (
     <header
       className={cn(
